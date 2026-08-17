@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+// import Login from "./views/Login.vue";
 </script>
 
 <template>
-  <!-- <HelloWorld /> -->
-  <H1 class="text-red-300 text-2xl">Test</H1>
+  <RouterView />
 </template>
